@@ -1,0 +1,47 @@
+<div class="row">
+
+  <div class="col-sm-8">
+
+  </div>
+
+  <div class="col-sm-4" style="background-color:gainsboro;
+  width: 300px;
+  border: 25px solid gainsboro;">
+  <h4>For More Information</h4>
+  <h3><strong>Contact</strong></h3>
+  <p>This Information is Private & Confidential</p>
+  <p>so please provide your email id</p>
+  <p style="background-color:white; width:350px; border:50px solid white">
+             Enter Your Email Address
+  </p>
+  
+  <button mat-button (click)="onClick" class="btn btn-info btn-block" style="background-color:orange">Get Contact Details</button>
+  </div>
+
+</div>
+
+
+
+------------------------------------------------------------------------------------------
+
+      <div class="row">
+      <mat-toolbar>
+
+        <div class="col-sm-4" style="margin-left:15%">   
+        <img src="/assets/logo_header_black.png">
+        </div>
+      
+        <div>          
+          <button mat-button (click)="onClick"><strong>MENU</strong></button>
+          <button mat-button (click)="onClick"><strong>NAVIGATION</strong></button>
+          <button mat-button (click)="onClick"><strong>MY PROFILE</strong></button>  
+          <button mat-button (click)="onClick"><strong>MY ACCOUNT</strong></button>
+          <img src="/assets/google_icon_enable.png" style="width:7%">
+          <img src="/assets/linkedin_enable.png" style="width:7%">   
+          <img src="/assets/facebook_enable.png" style="width:7%">   
+          <img src="/assets/twitter_enable.png" style="width:7%">             
+          <img src="/assets/insta_icon_enable.png" style="width:7%">                       
+        </div>
+
+      </mat-toolbar>
+    </div>
